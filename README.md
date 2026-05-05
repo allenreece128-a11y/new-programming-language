@@ -1,4 +1,4 @@
-﻿# NovaScript - Fully Complete Language
+﻿# genesis - experimental Language
 
 Welcome to the future of coding. NovaScript is a high-performance, minimalist programming language with an iconic syntax.
 
