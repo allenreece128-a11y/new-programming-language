@@ -2,7 +2,7 @@
 
 Welcome to the future of coding. NovaScript is a high-performance, minimalist programming language with an iconic syntax.
 
-## 1. How to Run NovaScript
+## 1. How to Run genesis
 NovaScript is powered by the **Dr4gon VM** (DVM). It features a fully functional interpreter and an integrated terminal environment to execute NovaScript code directly.
 
 ### To run a file
@@ -10,25 +10,13 @@ Open your terminal in the project directory and use the following command:
 ```bash
  dotnet run -- hello_world.ns
 ```
-Replace `hello_world.ns` with any of the demo files:
-- `loop_demo.ns`: Iteration with `*`.
-- `conditional_demo.ns`: Logic branching with `~` and `?`.
-- `function_demo.ns`: Modular code with `&`.
-- `object_error_demo.ns`: Advanced structures (`@@`) and error handling (`^`, `!`).
-- `calculator.ns`: An interactive calculator using `input` and `toNum`.
-- `shader_demo.ns`: OpenGL window, pixels, input, and custom shader uniforms.
-- `graph_demo.ns`: Line/bar/pie graphing system with custom title and axis variables.
-- `cat_hail_demo.ns`: Direct cat-image scene used by the `hail` easter egg.
-- `dvm_core_upgrade_demo.ns`: Demonstrates lists/maps and real break/continue behavior.
-- `river_grass_3d_demo.ns`: 3D flowing river terrain with animated grass + water shader.
-- `import_demo.ns`: Demonstrates module imports with `import "module_math.ns";`.
 
 ### Interactive Terminal (NovaTerminal)
 Start the NovaScript terminal:
 ```bash
  dotnet run
 ```
-You’ll see a prompt `ns>` where you can type NovaScript code directly. Use `::` to open and `;;` to close multi-line blocks.
+You’ll see a prompt `ns>` where you can type genesis code directly. Use `::` to open and `;;` to close multi-line blocks.
 
 Built-in commands:
 ```
@@ -40,10 +28,6 @@ Built-in commands:
 .graph           Interactive graph builder (line/bar/pie)
 .cancel          Clear unfinished multi-line input
 ```
-Easter eggs:
-- Type `reece` for the existing terminal animation.
-- Type `hail` to spam red chant text briefly, then open the direct cat image scene.
-  Put your cat image in the project root (`NovaScript` folder). It auto-detects image files and prefers `shadow_cat.jpg`.
 
 Example session:
 ```
